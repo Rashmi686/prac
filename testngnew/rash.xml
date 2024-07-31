@@ -1,0 +1,13 @@
+<suite name="TestNg Suite">
+<test name="Sendmail">
+<parameter name="username" value="rashmi.raut0090@gmail.com"></parameter>
+<parameter name="password" value="Rashami@1234" ></parameter>
+<classes>
+<class name="testCases.ReceiveMailTest"></class>
+</classes>
+<test name="ReceiveMail"></test>
+<classes>
+<class name="testCases.SendMailTest"></class>
+</classes>
+</test>
+</suite>
